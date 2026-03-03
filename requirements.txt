@@ -1,0 +1,25 @@
+# Wan 2.2 dependencies
+torch>=2.4.0
+torchvision>=0.19.0
+torchaudio
+opencv-python>=4.9.0.80
+diffusers>=0.31.0
+transformers>=4.49.0,<=4.51.3
+tokenizers>=0.20.3
+accelerate>=1.1.1
+tqdm
+imageio[ffmpeg]
+easydict
+ftfy
+imageio-ffmpeg
+numpy>=1.23.5,<2
+
+# Flash attention (install separately if it fails — skip for build)
+# flash_attn  # Uncomment after other deps are installed
+
+# RunPod handler
+runpod>=1.7.9
+
+# Utilities
+requests
+Pillow
